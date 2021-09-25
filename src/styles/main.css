@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	background: #009df7;
+	font-weight: 300;
+	font-family: Inter, sans-serif;
+}
+
+.submit-button {
+	@apply flex px-16 py-2 mx-auto font-normal text-gray-100 transition-all bg-blue-900 border-transparent rounded-lg outline-none w-max bg-opacity-20;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+	@apply shadow-md;
+}
+
+.input {
+	@apply w-full text-gray-100 placeholder-gray-100 bg-blue-400 bg-opacity-50 border-white rounded-full;
+}
+
+.input:hover,
+.input:focus {
+	@apply shadow-md;
+}
+
+.input:focus {
+	@apply focus:border-white focus:ring-transparent;
+}
+
+.title {
+	@apply text-3xl font-medium tracking-wide text-white;
+}
+
+.description {
+	@apply my-1 text-sm tracking-tight text-center text-gray-200;
+}
+
+.image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.twitter-card {
+	@apply bg-black mx-auto border shadow-lg border-[#2f3336];
+}
+
+.twitter-username {
+	@apply flex space-x-1 text-lg font-semibold leading-none text-white;
+}
+
+.twitter-links {
+	@apply flex flex-wrap space-x-4 leading-none items-center font-normal my-1.5 text-gray-500 text-sm;
+}
+
+.twitter-followers {
+	@apply flex flex-wrap space-x-3 pb-2 text-gray-500 text-[0.95rem] leading-tight;
+}
+
+.avatar {
+	@apply -mt-[18%] w-[22%] pb-[22%] absolute left-3 ring-black ring-4 rounded-full;
+}
+
+.images {
+	@apply relative mb-10;
+}
+
+a {
+	@apply text-blue-400;
+}
