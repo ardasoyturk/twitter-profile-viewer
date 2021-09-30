@@ -2,7 +2,7 @@
 
 ![Screenshot of the app](https://i.imgur.com/ip0I87R.png)
 
-A service to see your Twitter profile from a new perspective with more details, using all of the data you can get from the [Twitter API](https://developer.twitter.com),
+A service to see your Twitter profile from a new perspective with more details, using all of the data you can get from the [Twitter API](https://developer.twitter.com).
 
 ## 🔥 Features
 
