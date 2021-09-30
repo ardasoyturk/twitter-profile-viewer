@@ -43,7 +43,7 @@ body {
 }
 
 .twitter-card {
-	@apply bg-black mx-auto border shadow-lg border-[#2f3336];
+	@apply bg-black border mx-2 shadow-lg border-[#2f3336] p-4 rounded-md;
 }
 
 .twitter-username {
@@ -51,11 +51,11 @@ body {
 }
 
 .twitter-links {
-	@apply flex flex-wrap space-x-4 leading-none items-center font-normal my-1.5 text-gray-500 text-sm;
+	@apply md:flex grid justify-start flex-wrap md:space-x-4 leading-none items-center font-normal my-1.5 text-gray-500 text-sm;
 }
 
 .twitter-followers {
-	@apply flex flex-wrap space-x-3 pb-2 text-gray-500 text-[0.95rem] leading-tight;
+	@apply grid md:flex grid-cols-2 flex-wrap justify-items-start md:space-x-3 pb-2 text-gray-500 text-[0.95rem] leading-tight;
 }
 
 .avatar {
