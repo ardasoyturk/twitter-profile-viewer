@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^6.4.1",
+    "vite-plugin-radar": "^0.2.0",
     "vue": "^3.2.6",
     "vue-router": "4"
   },
