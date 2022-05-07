@@ -96,27 +96,27 @@
                 class="text-gray-500"
                 title="The number of users this account is following."
               >
-                <span class="font-normal text-gray-100">{{ twitterData.friends_count }}</span> Following
+                <span class="font-normal text-gray-100">{{ twitterData.friends_count.toLocaleString() }}</span> Following
               </a>
               <a
                 :href="twitterProfileUrl + '/followers'"
                 class="text-gray-500"
                 title="The number of followers this account currently has."
               >
-                <span class="font-normal text-gray-100">{{ twitterData.followers_count }}</span> Followers
+                <span class="font-normal text-gray-100">{{ twitterData.followers_count.toLocaleString() }}</span> Followers
               </a>
               <a
                 :href="twitterProfileUrl + '/likes'"
                 class="text-gray-500"
                 title="The number of Tweets this user has liked in the account’s lifetime."
               >
-                <span class="font-normal text-gray-100">{{ twitterData.favourites_count }}</span> Liked Tweets
+                <span class="font-normal text-gray-100">{{ twitterData.favourites_count.toLocaleString() }}</span> Liked Tweets
               </a>
               <p title="The number of Tweets (including retweets) issued by the user.">
-                <span class="font-normal text-gray-100">{{ twitterData.statuses_count }}</span> Tweets
+                <span class="font-normal text-gray-100">{{ twitterData.statuses_count.toLocaleString() }}</span> Tweets
               </p>
               <p title="The number of public lists that this user is a member of.">
-                <span class="font-normal text-gray-100">{{ twitterData.listed_count }}</span> Lists
+                <span class="font-normal text-gray-100">{{ twitterData.listed_count.toLocaleString() }}</span> Lists
               </p>
             </div>
           </div>
