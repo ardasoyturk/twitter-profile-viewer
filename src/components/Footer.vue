@@ -8,12 +8,11 @@
         <a href="#" class="text-current">profileviewer.site</a>
         —
         <p class="hidden sm:inline">Made with 🤍 by</p>
-        <a
-          href="https://twitter.com/soyturkarda_"
-          rel="noopener noreferrer"
-          class="ml-1 text-[#009df7]"
+        <router-link
+          to="/user/soyturkarda_"
           target="_blank"
-        >@soyturkarda_</a> — This website is not associated with Twitter Inc.
+          class="ml-1 text-[#009df7]"
+        >@soyturkarda_</router-link> — This website is not associated with Twitter Inc.
       </div>
       <span
         class="inline-flex justify-center mx-auto mt-2 space-x-3 lg:mx-0 lg:ml-auto sm:mt-0 lg:justify-start"
