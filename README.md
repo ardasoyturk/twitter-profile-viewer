@@ -1,6 +1,9 @@
-# Twitter Profile Viewer
+# [Twitter Profile Viewer](https://profileviewer.vercel.app)
 
-![Screenshot of the app](https://i.imgur.com/ip0I87R.png)
+## ⚠️ About the migration to the new domain
+I created this tool to apply for [Cloudflare's Developer Summer Challenge](https://blog.cloudflare.com/developer-summer-challenge/). I really enjoyed coding it, dealing with the Twitter API etc. It was really fun. However I don't want to renew its domain because I believe it's not necessary. So I decided to connect it to Vercel and use vercel.app subdomain. You can use the domain **profileviewer.site** until September 20. After that, I won't be owning the domain so you won't be able to access it through that domain.
+
+![Screenshot of the app](https://i.imgur.com/xMGM29o.png)
 
 A service to see your Twitter profile from a new perspective with more details, using all of the data you can get from the [Twitter API](https://developer.twitter.com).
 
