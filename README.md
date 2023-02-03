@@ -1,7 +1,9 @@
 # [Twitter Profile Viewer](https://profileviewer.vercel.app)
 
-## ⚠️ About the migration to the new domain
-I created this tool to apply for [Cloudflare's Developer Summer Challenge](https://blog.cloudflare.com/developer-summer-challenge/). I really enjoyed coding it, dealing with the Twitter API etc. It was really fun. However I don't want to renew its domain because I believe it's not necessary. So I decided to connect it to Vercel and use vercel.app subdomain. You can use the domain **profileviewer.site** until September 20. After that, I won't be owning the domain so you won't be able to access it through that domain.
+## 🥹 Why is it discontinued?
+Twitter is going to stop supporting free tier developer access. Since this was a hobby project, I won't subscribe for a paid tier. Thanks for your interest.
+
+## ❓ About
 
 ![Screenshot of the app](https://i.imgur.com/xMGM29o.png)
 
